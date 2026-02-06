@@ -17,6 +17,22 @@ A lightweight, GitHub-native project management system for AI-assisted developme
 
 3. Create `prds/` directory for Product Requirement Documents
 
+## Installation
+
+### One-liner Install (Recommended)
+
+```bash
+cd /path/to/your/project
+gh repo clone KeithHanson/OSPM ospm-temp -- -q && rm -rf ospm-temp/.git && mv ospm-temp/.opencode . && rm -rf ospm-temp
+```
+
+This clones the repo, removes the `.git` folder, moves `.opencode` to your project, and cleans up.
+
+### Requirements
+
+- [GitHub CLI](https://cli.github.com/) - `gh` command
+- Git authentication configured (`gh auth login`)
+
 ## Directory Structure
 
 ```
